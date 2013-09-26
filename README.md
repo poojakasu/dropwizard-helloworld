@@ -5,6 +5,8 @@ Updating the ReadMe file
 To check if the port is listening.
 
 
+Testing reDeploy.
+
 $ mvn clean package
 
 $ bin/run.sh 
