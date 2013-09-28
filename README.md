@@ -1,8 +1,8 @@
 
-
 dropwizard-helloworld
 =====================
 Updating the ReadMe file
+To check if the port is listening.
 
 
 $ mvn clean package
