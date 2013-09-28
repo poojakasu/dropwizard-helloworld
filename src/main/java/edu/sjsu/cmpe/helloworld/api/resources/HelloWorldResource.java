@@ -24,7 +24,15 @@ public class HelloWorldResource {
     @Timed(name = "get-requests")
     public HelloMessage get(@QueryParam("name") Optional<String> name) {
         HelloMessage hello = new HelloMessage();
-        hello.setMessage("Hello" + ( (name.isPresent()) ? " " + name.get() : ""));
+        String nameVal = "";
+        nameVal = (name.isPresent()) ? " " + name.get() : "";
+        if(nameVal !=null && nameVal !="" )
+        {
+        	nameVal += " from 273";
+        }
+        else
+        	nameVal ="";
+        hello.setMessage("Hello" + nameVal);
         return hello;
     }
 }

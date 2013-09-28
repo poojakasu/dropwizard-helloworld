@@ -1,8 +1,11 @@
 
 dropwizard-helloworld
 =====================
-Updating the ReadMe file
+
+Updating the ReadMe file.
+
 To check if the port is listening.
+The port is listening when checked in from the machine too.
 
 
 Testing reDeploy.
